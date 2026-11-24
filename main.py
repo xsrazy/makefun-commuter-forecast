@@ -10,8 +10,8 @@ import os
 from pathlib import Path
 
 LINE = (
-    "Good morning, Nibberwick: 72 and sunny, with a 100% chance the bus "
-    "arrives exactly when you do. Bring coffee, not an umbrella."
+    "Nibberwick today: sunny, 72, and the 8:04 bus is running early for "
+    "once, so your coffee stays hot and your Monday finally behaves."
 )
 
 assert 1 <= len(LINE) <= 140 and LINE.strip(), "line must be 1-140 chars, not only whitespace"
